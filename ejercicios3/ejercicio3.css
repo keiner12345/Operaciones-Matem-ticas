@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(/img/fondos-de-pantalla-3d-paisaje.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100%; 
+    padding: 10px;
+    box-sizing: border-box; 
+}
+
+input {
+    width: 100%; 
+    max-width: 400px; 
+    height: 40px;
+    border-radius: 100px;
+    color: rgb(0, 0, 0);
+    background-color: #ffff;
+    padding: 0 10px;
+    font-size: 1em;
+    box-sizing: border-box; 
+}
+
+input::placeholder {
+    color: #070707;
+    text-align: center;
+}
+
+button {
+    border-radius: 30px;
+    width: 100%; 
+    max-width: 200px;
+    height: 40px;
+    background-color: #1d8348;
+    color: #ffff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-sizing: border-box; 
+}
+
+button:hover {
+    background-color: #015539;
+    transform: scale(1.07);
+}
+
+
+@media (max-width: 1200px) {
+    .container {
+        padding: 15px; 
+    }
+
+    input {
+        width: 70%;
+    }
+
+    button {
+        width: 60%; 
+    }
+}
+
+
+@media (max-width: 768px) {
+    input {
+        width: 80%; 
+    }
+
+    button {
+        width: 60%; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .container {
+        padding: 5px; 
+    }
+
+    input {
+        width: 90%;
+    }
+
+    button {
+        width: 80%; 
+    }
+}

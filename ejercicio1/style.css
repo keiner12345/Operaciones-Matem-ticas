@@ -1,0 +1,21 @@
+.container{
+    width: 30PX;
+    height: 30px;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+::placeholder {
+    color: black;
+    font-size: 1em;
+    text-align: center;
+  }
+
+button{
+    border-radius: 30px;
+}
+
+body{
+    background-image: url(/img/fondos-de-pantalla-3d-paisaje.jpg);
+}
+
